@@ -12,7 +12,10 @@ namespace Eval.ORM
     {
         public ContexteBDD() : base("Eval")
         {
-
+            
         }
+        public DbSet<Jeu> Jeux { get; set; }
+        public DbSet<Client> Clients { get; set; }
+        public DbSet<Reservation> Reservation { get; set; }
     }
 }

@@ -65,12 +65,27 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ContexteBDD.cs" />
+    <Compile Include="Client.cs" />
+    <Compile Include="Jeu.cs" />
     <Compile Include="Migrations\201911141009364_Test.cs" />
     <Compile Include="Migrations\201911141009364_Test.designer.cs">
       <DependentUpon>201911141009364_Test.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201911141449105_maj1.cs" />
+    <Compile Include="Migrations\201911141449105_maj1.designer.cs">
+      <DependentUpon>201911141449105_maj1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911141512347_maj2.cs" />
+    <Compile Include="Migrations\201911141512347_maj2.designer.cs">
+      <DependentUpon>201911141512347_maj2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911141518204_maj3.cs" />
+    <Compile Include="Migrations\201911141518204_maj3.designer.cs">
+      <DependentUpon>201911141518204_maj3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reservation.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -79,6 +94,15 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201911141009364_Test.resx">
       <DependentUpon>201911141009364_Test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911141449105_maj1.resx">
+      <DependentUpon>201911141449105_maj1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911141512347_maj2.resx">
+      <DependentUpon>201911141512347_maj2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911141518204_maj3.resx">
+      <DependentUpon>201911141518204_maj3.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
